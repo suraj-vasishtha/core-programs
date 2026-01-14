@@ -1,0 +1,18 @@
+//wap to print sum of num.s in b/w the range
+
+import java.util.Scanner;
+
+class SumOfNumInRange 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the range");
+		int start = sc.nextInt(), end = sc.nextInt(), sum = 0;
+		for (int i = start; i<= end; i++)
+		{
+			sum += i;
+		}
+		System.out.println("Sum of Numbers is: "+sum);
+	}
+}

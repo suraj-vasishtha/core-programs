@@ -1,0 +1,22 @@
+//wap to swap two values
+
+import java.util.Scanner;
+
+class SwapNumbers 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter two numbers to swap");
+		int a = sc.nextInt(), b = sc.nextInt();
+		System.out.println("==========Before swap==========");
+		System.out.println("a is: "+a);
+		System.out.println("b is: "+b);
+		int temp = a;
+		a = b;
+		b = temp;
+		System.out.println("==========After swap==========");
+		System.out.println("a is: "+a);
+		System.out.println("b is: "+b);
+	}
+}
